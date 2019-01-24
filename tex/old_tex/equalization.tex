@@ -1,0 +1,119 @@
+\documentclass[letterpaper, 10 pt, conference]{ieeeconf}  % Comment this line out if you need a4paper
+
+%\documentclass[a4paper, 10pt, conference]{ieeeconf}      % Use this line for a4 paper
+
+\IEEEoverridecommandlockouts                              % This command is only needed if 
+                                                          % you want to use the \thanks command
+
+\overrideIEEEmargins                                      % Needed to meet printer requirements.
+
+\title{\LARGE \bf
+Deep Networks for Equalization in Communications
+}
+
+
+\author{Laura Brink, Nipun Ramakrishnan, Nikhil Shinde, and Anant Sahai% <-this % stops a space
+}
+
+
+\begin{document}
+
+
+
+\maketitle
+\thispagestyle{empty}
+\pagestyle{empty}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{abstract}
+In this paper, we explore how neural networks can make more robust and adaptable equalization processes in communication systems. We address the effects of inter-symbol interference and carrier frequency offset and show that ....
+
+\end{abstract}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{INTRODUCTION}
+\input{intro}
+
+\section{Related Works}
+\input{related_works}
+
+
+\section{Deep Networks for Equalization}
+\input{equal}
+
+\section{Deep Networks Carrier Frequency Offset}
+\input{cfo}
+
+
+\section{Combine CFO and equal?}
+
+\begin{table}[h]
+\caption{An Example of a Table}
+\label{table_example}
+\begin{center}
+\begin{tabular}{|c||c|}
+\hline
+One & Two\\
+\hline
+Three & Four\\
+\hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+   \begin{figure}[thpb]
+      \centering
+      \framebox{\parbox{3in}{We suggest that you use a text box to insert a graphic (which is ideally a 300 dpi TIFF or EPS file, with all fonts embedded) because, in an document, this method is somewhat more stable than directly inserting a picture.
+}}
+      %\includegraphics[scale=1.0]{figurefile}
+      \caption{Inductance of oscillation winding on amorphous
+       magnetic core versus DC bias magnetic field}
+      \label{figurelabel}
+   \end{figure}
+   
+
+Figure Labels: Use 8 point Times New Roman for Figure labels. Use words rather than symbols or abbreviations when writing Figure axis labels to avoid confusing the reader. As an example, write the quantity ÒMagnetizationÓ, or ÒMagnetization, MÓ, not just ÒMÓ. If including units in the label, present them within parentheses. Do not label axes only with units. In the example, write ÒMagnetization (A/m)Ó or ÒMagnetization {A[m(1)]}Ó, not just ÒA/mÓ. Do not label axes with a ratio of quantities and units. For example, write ÒTemperature (K)Ó, not ÒTemperature/K.Ó
+
+\section{CONCLUSIONS}
+
+We built a system.
+
+\cite{dorner2017}
+
+\cite{kim2018}
+
+\cite{farsad2018}
+
+%\cite{dorner2017}
+
+\addtolength{\textheight}{-12cm}   % This command serves to balance the column lengths
+                                  % on the last page of the document manually. It shortens
+                                  % the textheight of the last page by a suitable amount.
+                                  % This command does not take effect until the next page
+                                  % so it should come on the page before the last. Make
+                                  % sure that you do not shorten the textheight too much.
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{APPENDIX}
+
+Appendixes should appear before the acknowledgment.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+References are important to the reader; therefore, each citation must be complete and correct. If at all possible, references should be commonly available publications.
+
+
+\bibliographystyle{IEEEtran}
+\bibliography{IEEEabrv,mybib}
+
+
+
+
+\end{document}

@@ -1,0 +1,55 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Contents}{i}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{List of Figures}{ii}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {1}Introduction}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.1}Motivation}{1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Context}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.2}Background}{2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Inter-symbol Interference and Equalization}{3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Equalization for a known channel}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{Equalization for an unknown channel}{5}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Carrier Frequency Offset and Correction}{6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.3}Related Works}{8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1.4}Contributions of this Report}{11}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {2}Deep Networks for Equalization}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.1}Channel Estimation}{12}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.2}Channel Equalization}{13}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Learning an inverse}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Learning to multiply two inputs}{14}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{RNN for Channel Equalization}{15}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2.3}Future Work}{19}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {3}Deep Networks for Carrier Frequency Offset}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.1}Recurrent Neural Network Follows a Circle}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Single Rate}{20}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{Different Rates}{21}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.2}Deep Network Carrier Frequency Offset Estimation and Correction}{22}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3.3}Future Work}{24}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{\chapternumberline {4}Conclusion}{26}
+\defcounter {refsection}{0}\relax 
+\contentsline {chapter}{Bibliography}{27}
